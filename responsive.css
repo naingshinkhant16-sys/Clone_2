@@ -1,0 +1,33 @@
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+    #hero-title {
+        font-size: 2.5rem;
+    }
+    
+    #map {
+        height: 350px;
+    }
+    
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Touch friendly buttons */
+@media (hover: none) {
+    .service-card:hover {
+        transform: none;
+    }
+    
+    .bg-accent:active {
+        background-color: #1d4ed8;
+    }
+}

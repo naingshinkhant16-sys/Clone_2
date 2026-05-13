@@ -1,0 +1,14 @@
+{
+  "mapTypes": [
+    { "id": "yangon_gis", "name": "Yangon City GIS Map", "basePrice": 150000 },
+    { "id": "mandalay_city", "name": "Mandalay City Map", "basePrice": 120000 },
+    { "id": "naypyitaw_map", "name": "Naypyitaw Map", "basePrice": 100000 },
+    { "id": "myanmar_admin", "name": "Myanmar Administrative Map", "basePrice": 80000 }
+  ],
+  "formats": [
+    { "id": "vinyl_small", "name": "Vinyl (2' x 3')", "multiplier": 1.0 },
+    { "id": "vinyl_large", "name": "Vinyl (4' x 6')", "multiplier": 2.5 },
+    { "id": "pdf_print", "name": "Soft Copy (PDF/JPG)", "multiplier": 0.8 },
+    { "id": "gis_data", "name": "GIS Data (.shp/.kml)", "multiplier": 5.0 }
+  ]
+}
